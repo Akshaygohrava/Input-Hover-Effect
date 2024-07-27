@@ -1,0 +1,41 @@
+body {
+   background-color: black;
+    background-repeat: no-repeat;
+    height: 100vh;justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+input {
+    padding: 3vw 5vw;
+    border-radius: 2vw;
+    outline: none;
+    border: none;
+    font-size: 5vw;
+    font-family: cursive;
+    transition: 0.5s ease-out;
+}
+input:hover {
+    background-color: silver;
+    border: 0.2em solid goldenrod;
+}
+label {
+    position: absolute;
+    color: goldenrod;
+    font-size: 7vw;
+    top: 2vw;
+    left: 4vw;
+    transition: 0.3s;
+    pointer-events: none;
+    
+}
+input:hover ~ label,
+input:valid ~ label {
+    top: -5vw;
+    background-color: black;
+    padding: 1vw 2vw;
+  
+}
+.contain {
+    position: relative;
+}
