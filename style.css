@@ -31,9 +31,9 @@ label {
 }
 input:hover ~ label,
 input:valid ~ label {
-    top: -5vw;
+    top: -6vw;
     background-color: black;
-    padding: 1vw 2vw;
+    padding: 1vw 1vw;
   
 }
 .contain {
