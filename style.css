@@ -1,8 +1,9 @@
 body {
    background-color: black;
     background-repeat: no-repeat;
-    height: 100vh;justify-content: center;
+    height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
 
 }
@@ -22,6 +23,7 @@ input:hover {
 label {
     position: absolute;
     color: goldenrod;
+    opacity: 0.4;
     font-size: 7vw;
     top: 2vw;
     left: 4vw;
@@ -33,7 +35,8 @@ input:hover ~ label,
 input:valid ~ label {
     top: -6vw;
     background-color: black;
-    padding: 1vw 1vw;
+    padding: 0.5vw 0.5vw;
+    opacity: 1;
   
 }
 .contain {
